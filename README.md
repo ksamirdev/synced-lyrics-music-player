@@ -2,6 +2,8 @@
 
 This project is a music player with live, synced lyrics. The frontend is built using [Vite React App](https://vitejs.dev/) and the backend is built using [Express](https://expressjs.com/). Live, synced lyrics are provided by the [sync-lyrics](https://github.com/samocodes/sync-lyrics) package.
 
+<img src="preview.webp" alt="Preview" />
+
 ## Installation
 
 To install the project, follow these steps:
@@ -27,7 +29,7 @@ To install the project, follow these steps:
    yarn start
    ```
 
-   This will start the app in development mode. Open [http://localhost:5173](http://localhost:3000) to view it in the browser.
+   This will start the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## Usage
 
@@ -45,6 +47,11 @@ If you would like to contribute to the project, feel free to submit a pull reque
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for details.
+
+## Features
+
+- Provide live lyrics for the spotify tracks
+- Support color from thumbnail.
 
 ## TODO
 
