@@ -1,0 +1,22 @@
+{
+  "name": "musique",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently \"cross-env dotenv -e .env yarn start-frontend\" \"cross-env dotenv -e .env yarn start-backend\"",
+    "start-frontend": "cd frontend && yarn dev",
+    "start-backend": "cd backend && yarn start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "cross-env": "^7.0.3",
+    "dotenv-cli": "^7.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

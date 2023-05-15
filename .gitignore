@@ -1,0 +1,33 @@
+# Ignore node_modules directories in all workspaces
+node_modules/
+
+# Ignore build output in all workspaces
+dist/
+build/
+
+# Ignore any files created by editors or IDEs
+.vscode/
+.idea/
+*.iml
+
+# Ignore any log files
+*.log
+
+# Ignore yarn error logs
+yarn-error.log
+
+# Ignore environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore any files or directories specific to the frontend workspace
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Ignore any files or directories specific to the backend workspace
+backend/node_modules/
+backend/dist/
+backend/.env
